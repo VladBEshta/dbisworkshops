@@ -1,0 +1,4 @@
+1--Додати повідомлення між існуючими користувачами та існуючими месенджерами
+
+INSERT INTO MESSAGE (TO_USER, ID_MESSANGER, FROM_USER, "MESSAGE_ID", ID_CONTENT, MASSAGE_TIME)  
+VALUES ('1', '2', '2', '5', '3', DATE '2018-11-04');
