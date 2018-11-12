@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>message</title>
+</head>
+<body>
+    <form action = "/api" method = "POST" id="message_update">
+         <p>Message_id <input type = "text" name = "message_id" value="{{message.get('message_id')}}"/></p>
+         <p>From_user <input type = "text" name = "from_user" value="{{message.get('from_user')}}"/></p>
+         <p>To_user <input type = "text" name = "to_user" value="{{message.get('to_user')}}"/></p>
+         <p>Messenger_name<input type = "text" name = "messenger_name" value="{{message.get('messenger_name')}}"/></p>
+         <p>Massage_time <input type = "text" name = "massage_time" value="{{message.get('massage_time')}}"/></p>
+         <p>Status <input type = "text" name = "status" value="{{message.get('status')}}"/></p>
+         <p>Content<input type = "text" name = "content" value="{{message.get('content')}}"/></p>
+     </form>
+    <button type="submit" form="message_update" name="action" value="message_update">Submit</button>
+</body>
+</html>
