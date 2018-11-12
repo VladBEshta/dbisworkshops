@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>car</title>
+</head>
+<body>
+    <form action = "/api" method = "POST" id="messenger_update">
+         <p>Messenger_name <input type = "text" name = "messenger_name" value="{{messenger.get('messenger_name')}}"/></p>
+         <p>Version <input type = "text" name = "version" value="{{messenger.get('version')}}"/></p>
+     </form>
+    <button type="submit" form="messenger_update" name="action" value="messenger_update">Submit</button>
+</body>
+</html>
